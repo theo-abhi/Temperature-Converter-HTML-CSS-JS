@@ -14,7 +14,7 @@ This project provides a user-friendly interface for quickly converting temperatu
 
 - **Real-time Conversion:** As you type in one temperature unit, the others are automatically updated.
 - **Supports Three Units:** Converts between Celsius (°C), Fahrenheit (°F), and Kelvin (K).
-- **Clean and Responsive Design:** Built with CSS to ensure a visually appealing and adaptable layout across different screen sizes.
+<!-- - **Clean and Responsive Design:** Built with CSS to ensure a visually appealing and adaptable layout across different screen sizes. -->
 - **Client-Side Logic:** Implemented entirely with JavaScript for fast and efficient conversions directly in the browser.
 
 ## Technologies Used
@@ -25,4 +25,5 @@ This project provides a user-friendly interface for quickly converting temperatu
 
 ## How to Use
 
-Simply open the `index.html` file in your web browser. Enter a temperature value in any of the input fields (Celsius, Fahrenheit, or Kelvin), and the corresponding values in the other units will be updated instantly.
+Simply open the `index.html` file in your web browser.
+Enter a temperature value in any of the input fields (Celsius, Fahrenheit, or Kelvin), and the corresponding values in the other units will be updated instantly.
