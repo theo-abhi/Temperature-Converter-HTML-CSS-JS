@@ -55,6 +55,11 @@ input {
   text-align: center;
 }
 
+input::placeholder {
+  font-size: 16px;
+  color: #ccc;
+}
+
 input:hover {
   border-color: #0001056c;
 }
@@ -97,5 +102,9 @@ input::-webkit-inner-spin-button {
 
   label {
     font-size: 16px;
+  }
+
+  input::placeholder {
+    font-size: 14px;
   }
 }
