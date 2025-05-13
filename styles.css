@@ -10,24 +10,6 @@ body {
   background-color: #3164ff;
 }
 
-.heading {
-  width: 50%;
-  background-color: white;
-  padding: 40px 0px;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 30%;
-  left: 50%;
-  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
-  border-radius: 8px;
-}
-
-h1 {
-  font-size: 35px;
-}
-
 .wrapper {
   width: 80%;
   background-color: white;
@@ -35,17 +17,31 @@ h1 {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 60%;
+  top: 50%;
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
+  gap: 50px;
+}
+
+h1 {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #2e2e2e;
+}
+
+.temp-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
 .container {
   text-align: center;
-  width: 30%;
 }
 
 input {
@@ -56,6 +52,7 @@ input {
   outline: none;
   margin-top: 10px;
   padding: 0 10px;
+  text-align: center;
 }
 
 input:hover {
@@ -64,4 +61,41 @@ input:hover {
 
 input:focus {
   border-color: #3164ff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 90%;
+    padding: 30px 40px;
+    gap: 30px;
+  }
+
+  .temp-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .container {
+    text-align: center;
+    width: 50%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  label {
+    font-size: 16px;
+  }
 }
