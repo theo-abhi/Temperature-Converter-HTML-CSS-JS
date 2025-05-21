@@ -1,29 +1,58 @@
 # Temperature-Converter-HTML-CSS-JS
 
-A temperature converter using HTML, CSS, and JavaScript.
+A simple and intuitive web application to convert temperatures between **Celsius**, **Fahrenheit**, and **Kelvin**, built using **HTML**, **CSS**, and **JavaScript**.
 
-# Temperature Converter
+## 🚀 Features
 
-A simple and intuitive web application built with HTML, CSS, and JavaScript to easily convert temperatures between Celsius, Fahrenheit, and Kelvin.
+- **Real-time Conversion:** Instantly updates all temperature units as you type in any input field.
+- **Supports Three Units:** Convert between Celsius (°C), Fahrenheit (°F), and Kelvin (K).
+- **Responsive Design:** Clean and adaptable layout for both desktop and mobile devices.
+- **Client-Side Logic:** All calculations are handled in-browser using JavaScript—no internet or backend required.
 
-## Overview
+## 🖼️ Preview
 
-This project provides a user-friendly interface for quickly converting temperature values. Whether you need to switch between Celsius and Fahrenheit for everyday use or work with Kelvin for scientific purposes, this converter offers a straightforward solution. It's a lightweight and client-side application, meaning no server-side processing is required.
+![App Screenshot](./assets/Temperature%20Converter.png)
 
-## Features
+## 🛠️ Tech Stack
 
-- **Real-time Conversion:** As you type in one temperature unit, the others are automatically updated.
-- **Supports Three Units:** Converts between Celsius (°C), Fahrenheit (°F), and Kelvin (K).
-<!-- - **Clean and Responsive Design:** Built with CSS to ensure a visually appealing and adaptable layout across different screen sizes. -->
-- **Client-Side Logic:** Implemented entirely with JavaScript for fast and efficient conversions directly in the browser.
+- **HTML5** – Markup and structure
+- **CSS3** – Styling and layout
+- **JavaScript (ES6)** – Logic for conversion and real-time updates
 
-## Technologies Used
+## 📁 Project Structure
 
-- **HTML:** Provides the structural foundation of the web page.
-- **CSS:** Styles the user interface for a clean and user-friendly experience.
-- **JavaScript:** Handles the dynamic temperature conversion logic.
+Temperature-Converter-HTML-CSS-JS/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
-## How to Use
+## 🧠 How It Works
 
-Simply open the `index.html` file in your web browser.
-Enter a temperature value in any of the input fields (Celsius, Fahrenheit, or Kelvin), and the corresponding values in the other units will be updated instantly.
+1. Open the application in a web browser.
+2. Enter a temperature in any one of the three input fields.
+3. The other two fields update automatically with the corresponding converted values.
+4. All calculations happen in real-time as you type.
+
+## 📦 Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Temperature-Converter-HTML-CSS-JS.git
+
+```
+
+2. Open index.html in your browser.
+
+No installations, build steps, or dependencies required.
+
+✨ Future Improvements
+
+1. Add unit labels or dropdowns for dynamic conversions
+
+2. Add error handling for invalid inputs
+
+3. Add theme toggle (light/dark mode)
+
+4. Deploy with GitHub Pages for live access
