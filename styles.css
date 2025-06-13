@@ -108,3 +108,23 @@ input::-webkit-inner-spin-button {
     font-size: 14px;
   }
 }
+
+/* FOOTER */
+#footer {
+  z-index: 1;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+a {
+  font-size: 14px;
+  color: #3164ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* END FOOTER */
