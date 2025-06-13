@@ -55,4 +55,4 @@ No installations, build steps, or dependencies required.
 
 3. Add theme toggle (light/dark mode)
 
-4. Deploy with GitHub Pages for live access
+
